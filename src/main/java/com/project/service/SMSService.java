@@ -11,7 +11,7 @@ public class SMSService implements ISMSService{
     //add your secrets here
     private final String  ACCOUNT_SID = "your_account_sid";
     private final String AUTH_TOKEN = "your_auth_token";
-    private final String Your_TWILIO_NUMBER = "drom which number will you send it";
+    private final String Your_TWILIO_NUMBER = "from which number will you send it";
     private final String to_Phone_Number = "some random number to which you want to send data";
 
     @Override
